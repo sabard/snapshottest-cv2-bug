@@ -4,7 +4,7 @@
 
 ```
 ./setup.sh
-source activate $WORKON_HOME/snapshot-bug-cv2/bin/activate
-docker build -t snapshottest-bug-cv2 .
-docker run snapshottest-bug-cv2
+source activate $WORKON_HOME/snapshottest-cv2-bug/bin/activate
+docker build -t snapshottest-cv2-bug .
+docker run snapshottest-cv2-bug
 ```
